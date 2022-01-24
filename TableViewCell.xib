@@ -44,13 +44,39 @@
                                     <constraint firstAttribute="height" constant="40.5" id="adq-RF-N3k"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="p6I-nT-Pfk">
+                                <rect key="frame" x="15" y="67" width="209.5" height="16"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Account Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yrz-EA-j7X">
+                                        <rect key="frame" x="0.0" y="0.0" width="98" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="6oQ-WF-Irs"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nisahnth's Acc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z5S-oe-rc7">
+                                        <rect key="frame" x="110" y="0.0" width="99.5" height="16"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="16" id="Jzt-pq-LCz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="100" id="2n3-pv-Gz1"/>
+                            <constraint firstItem="Yrz-EA-j7X" firstAttribute="top" secondItem="TQX-uL-xVn" secondAttribute="bottom" constant="17" id="4FQ-Wa-smZ"/>
                             <constraint firstItem="Wwt-x8-whG" firstAttribute="top" secondItem="1RC-BU-2NX" secondAttribute="top" constant="13" id="HZc-eo-eGI"/>
                             <constraint firstAttribute="trailing" secondItem="PUz-F6-AJ5" secondAttribute="trailing" constant="20" id="OBo-K1-TFY"/>
                             <constraint firstItem="Wwt-x8-whG" firstAttribute="leading" secondItem="1RC-BU-2NX" secondAttribute="leading" constant="15" id="Tcb-zF-bXS"/>
+                            <constraint firstItem="Yrz-EA-j7X" firstAttribute="leading" secondItem="1RC-BU-2NX" secondAttribute="leading" constant="15" id="U0W-Ex-AJK"/>
+                            <constraint firstAttribute="bottom" secondItem="Yrz-EA-j7X" secondAttribute="bottom" constant="17" id="cPS-Sh-dVd"/>
                             <constraint firstItem="TQX-uL-xVn" firstAttribute="leading" secondItem="1RC-BU-2NX" secondAttribute="leading" constant="15" id="caL-5O-twd"/>
                             <constraint firstItem="TQX-uL-xVn" firstAttribute="top" secondItem="1RC-BU-2NX" secondAttribute="top" constant="34" id="fl3-Qs-gtH"/>
                             <constraint firstItem="PUz-F6-AJ5" firstAttribute="top" secondItem="1RC-BU-2NX" secondAttribute="top" constant="20" id="iNp-GO-7Nf"/>
